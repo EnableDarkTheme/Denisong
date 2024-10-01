@@ -8,11 +8,17 @@
   height: 40vmin;
   pointer-events: none;
 }
+.no-logo {
+  min-height: 40vmin;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 7s linear;
   }
+}
+.non-spinning .App-logo {
+  animation: none;
 }
 
 .App-header {
