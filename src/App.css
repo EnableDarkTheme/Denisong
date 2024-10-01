@@ -5,11 +5,14 @@
 .App-logo {
   border-radius: 15%;
   border: 3px solid gold;
-  height: 40vmin;
+  height: 270px;
   pointer-events: none;
 }
 .no-logo {
-  min-height: 40vmin;
+  height: 270px;
+}
+.mia {
+  height: 500px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
